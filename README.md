@@ -6,7 +6,7 @@ Common folder contains tweaks for ``Scalability.ini`` to turn off post-processin
 > Bloom, Depth of Field, Vignette, Film Grain and Chromatic Abberation
 
 It does apply but there's no difference for Bloom, game probably uses a different command/post-processing method. Up to you if you still want to leave it in.
-![Logs](https://i.imgur.com/BW5Qa8m.png)
+![Logs](https://i.imgur.com/kyHO6S5.png)
 
 
 Copy ``Engine.ini`` (choose one config) and ``Scalability.ini`` to this location: 
