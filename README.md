@@ -2,7 +2,7 @@
 
 For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/)
 
-Copy ``Engine.ini`` (choose one config) and ``Scalability.ini`` to this location: 
+Copy ``Engine.ini`` (choose one config) to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
 
 Probably got the performance wrong for some but this should help to choose a config quickly.
