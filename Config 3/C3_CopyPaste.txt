@@ -1,4 +1,4 @@
-; Remove r.Streaming.LimitPoolSizeToVRAM=1 if you have 4GB VRAM or less
+; Remove r.Streaming.FullyLoadUsedTextures=1 if you have 4GB VRAM or less
 
 [SystemSettings]
 r.ScreenPercentage=100
