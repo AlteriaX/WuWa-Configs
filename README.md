@@ -1,6 +1,8 @@
 # WuWa-Configs
 
-For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/)
+All commands used have different value from the game's default. For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/)
+
+Info folder contains list of commands that have been tested but does not work or already enabled or disabled by default.
 
 Copy ``Engine.ini`` (choose one config) to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
