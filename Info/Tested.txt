@@ -1,0 +1,48 @@
+--- Already set to 0 (disabled) by the game ---
+r.DepthOfFieldQuality
+r.LensFlareQuality
+r.SceneColorFringeQuality
+r.Tonemapper.GrainQuantization
+r.Tonemapper.Quality
+s.AsyncLoadingUseFullTimeLimit
+
+--- Already set to 1 (enabled) or highest quality by the game ---
+r.AsyncCreateLightPrimitiveInteractions
+r.FidelityFX.FSR.RCAS.Enabled
+r.OneFrameThreadLag
+r.PostProcessAAQuality
+r.Streaming.MipBias
+r.XGEShaderCompile
+FX.AllowAsyncTick
+fx.Niagara.AllowAsyncWorkToEndOfFrame
+s.AsyncLoadingThreadEnabled
+s.UseBackgroundLevelStreaming
+
+--- Game overwrites/doesn't do anything ---
+r.BloomQuality
+r.CompileShadersForDevelopment
+r.DefaultFeature.AntiAliasing
+r.MaxAnisotropy
+r.SkeletalMeshLODBias
+r.TemporalAASamples
+r.Tonemapper.Sharpen
+r.ReflectionCaptureResolution
+s.AsyncLoadingTimeLimit
+s.LevelStreamingActorsUpdateTimeLimit
+
+--- Doesn't work properly ---
+r.TemporalAACatmullRom
+
+--- Not recognized by the game at all ---
+r.Streaming.DropMips
+r.UseShaderCaching
+r.UseShaderPredraw
+
+--- Game already has it's own cache built, doesn't do anything if you don't compile PSO generated looking at UE docs ---
+r.ShaderPipelineCache.Enabled=1
+r.ShaderPipelineCache.LazyLoadShadersWhenPSOCacheIsPresent=1
+r.ShaderPipelineCache.LogPSO=1
+r.ShaderPipelineCache.PreOptimizeEnabled=1
+r.ShaderPipelineCache.SaveBoundPSOLog=1
+r.ShaderPipelineCache.SaveUserCache=1
+r.ShaderPipelineCache.StartupMode=1
