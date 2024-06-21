@@ -1,3 +1,6 @@
+; Remove Screen Space Global Illumination (r.SSGI.Enable=1, r.SSGI.Quality=3) if you're struggling to hit high FPS
+; Tested on my RTX 3060 at 4K FPS drops by half with it on
+
 [SystemSettings]
 r.ScreenPercentage=100
 r.Color.Max=1.05
