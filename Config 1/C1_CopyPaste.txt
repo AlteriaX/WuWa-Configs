@@ -1,5 +1,5 @@
 ; Remove Screen Space Global Illumination (r.SSGI.Enable=1, r.SSGI.Quality=3) if you're struggling to hit high FPS
-; Tested on my RTX 3060 at 4K FPS drops by half with it on
+; Tested on my RTX 3060 at 4K FPS drops by half with SSGI on
 
 [SystemSettings]
 r.ScreenPercentage=100
@@ -27,11 +27,12 @@ r.SSGI.Quality=3
 r.SSR.Quality=3
 r.SSR.Temporal=1
 r.SSR.MaxRoughness=1.0
-r.TemporalAA.Algorithm=1
+r.TemporalAA.Algorithm=0
 r.TemporalAA.Upsampling=0
-r.TemporalAA.HistoryScreenPercentage=200
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
+r.FidelityFX.FSR.SecondaryUpScale=1
+r.FidelityFX.FSR.RCAS.Sharpness=1.0
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=64
 FX.EarlyScheduleAsync=1
