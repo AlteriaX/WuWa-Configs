@@ -1,5 +1,7 @@
 --- Already set to 0 (disabled) by the game ---
 r.DepthOfFieldQuality
+r.FinishCurrentFrame
+r.HZBOcclusion
 r.LensFlareQuality
 r.SceneColorFringeQuality
 r.Tonemapper.GrainQuantization
@@ -8,9 +10,13 @@ s.AsyncLoadingUseFullTimeLimit
 
 --- Already set to 1 (enabled) or highest quality by the game ---
 r.AsyncCreateLightPrimitiveInteractions
+r.AsyncPipelineCompile
 r.FidelityFX.FSR.RCAS.Enabled
 r.OneFrameThreadLag
 r.PostProcessAAQuality
+r.RDG.AsyncCompute
+r.Shaders.FastMath
+r.Shaders.Optimize
 r.Streaming.MipBias
 r.XGEShaderCompile
 FX.AllowAsyncTick
@@ -22,18 +28,18 @@ s.UseBackgroundLevelStreaming
 r.BloomQuality
 r.CompileShadersForDevelopment
 r.DefaultFeature.AntiAliasing
-r.MaxAnisotropy
+r.ReflectionCaptureResolution
 r.SkeletalMeshLODBias
 r.TemporalAASamples
 r.Tonemapper.Sharpen
-r.ReflectionCaptureResolution
 s.AsyncLoadingTimeLimit
 s.LevelStreamingActorsUpdateTimeLimit
 
 --- Doesn't work properly ---
 r.TemporalAACatmullRom
+r.MaxAnisotropy (even at 16 still blurry, set in NVIDIA/AMD Control Panel instead)
 
---- Not recognized by the game at all ---
+--- Not recognized by the game ---
 r.Streaming.DropMips
 r.UseShaderCaching
 r.UseShaderPredraw
