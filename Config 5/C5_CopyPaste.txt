@@ -1,4 +1,4 @@
-; Change r.ScreenPercentage a lower value if you need more FPS, won't look great though
+; Change r.ScreenPercentage to a lower value if you need more FPS, won't look great though
 ; Low setting disable most shadows
 ; Change foliage.DensityScale to 0.1 or higher if you want some grass back
 
