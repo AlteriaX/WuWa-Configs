@@ -1,8 +1,9 @@
 [SystemSettings]
-r.ScreenPercentage=77
+r.ScreenPercentage=85
 r.Color.Max=1.05
 r.Color.Mid=0.53
 r.KuroTonemapping=1
+r.kuro.LensflareSunDiskSize=0.1
 r.Shadow.FilterMethod=0
 r.Shadow.MaxCSMResolution=512
 r.Shadow.MinResolution=512
@@ -17,7 +18,7 @@ r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
 r.FidelityFX.FSR.SecondaryUpScale=1
 r.FidelityFX.FSR.RCAS.Sharpness=0.6
-r.Upscale.Quality=3
+r.Upscale.Quality=5
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=16
 FX.EarlyScheduleAsync=1

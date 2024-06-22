@@ -1,4 +1,4 @@
-; Change r.ScreenPercentage to 65 or lower if you need more FPS, won't look great though
+; Change r.ScreenPercentage a lower value if you need more FPS, won't look great though
 ; Low setting disable most shadows
 ; Change foliage.DensityScale to 0.1 or higher if you want some grass back
 
@@ -7,6 +7,7 @@ r.ScreenPercentage=67
 r.Color.Max=1.05
 r.Color.Mid=0.53
 r.KuroTonemapping=1
+r.kuro.LensflareSunDiskSize=0.1
 r.Fog=0
 r.SubsurfaceScattering=0
 foliage.DensityScale=0
@@ -24,7 +25,7 @@ r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
 r.FidelityFX.FSR.SecondaryUpScale=1
 r.FidelityFX.FSR.RCAS.Sharpness=0.4
-r.Upscale.Quality=3
+r.Upscale.Quality=5
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=8
 FX.EarlyScheduleAsync=1
