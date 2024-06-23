@@ -4,8 +4,8 @@
 
 [SystemSettings]
 r.ScreenPercentage=67
-r.Color.Max=1.05
-r.Color.Mid=0.53
+r.Color.Max=1.1
+r.Color.Mid=0.55
 r.KuroTonemapping=1
 r.kuro.LensflareSunDiskSize=0.1
 r.Fog=0
