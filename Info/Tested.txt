@@ -52,3 +52,11 @@ r.ShaderPipelineCache.PreOptimizeEnabled=1
 r.ShaderPipelineCache.SaveBoundPSOLog=1
 r.ShaderPipelineCache.SaveUserCache=1
 r.ShaderPipelineCache.StartupMode=1
+
+--- DLSS ---
+# Game version 1.0.2 uses DLSS v3.5.0, RenderPreset C and Autoexposure ON
+r.NGX.DLSS.Sharpness (does not work for DLSS > v2.5.1)
+r.NGX.DLSS.EnableAutoExposure=1 (Can't be overwritten)
+r.NGX.DLSS.Quality=2 (-2 to 1 works fine, but 2 does not. Game will use 0 instead [-2=Ultra Performance, -1=Performance, 0=Balanced, 1=Quality, 2=Ultra Quality])
+r.NGX.DLAA.Enable (Does not work. Probably not enabled in UE project)
+r.NGX.DLSS.RenderPreset=C (0=project setting, 1=A, 2=B, 3=C [default], 4=D, 5=E, 6=F [F not available in DLSS v3.5.0, DLSS > v3.7 needed])
