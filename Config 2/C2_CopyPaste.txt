@@ -45,5 +45,4 @@ s.PriorityAsyncLoadingExtraTime=0
 s.PriorityLevelStreamingActorsUpdateExtraTime=0
 
 [Core.Log]
-Global=off
-LogInteractiveProcess=all off
+global=none

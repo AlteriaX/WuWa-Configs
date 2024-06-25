@@ -4,6 +4,7 @@ r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
 r.kuro.LensflareSunDiskSize=0.1
+r.AmbientOcclusionMaxQuality=60
 r.Shadow.FilterMethod=0
 r.Shadow.MaxCSMResolution=512
 r.Shadow.MinResolution=512
@@ -12,6 +13,8 @@ r.Shadow.PerObjectResolutionMax=512
 r.Shadow.PerObjectResolutionMin=512
 r.DetailMode=0
 r.MaterialQualityLevel=2
+r.SSR.Quality=2
+r.SSR.HalfResSceneColor=1
 r.TemporalAA.Algorithm=0
 r.TemporalAA.Upsampling=1
 r.TemporalAACurrentFrameWeight=0.35
@@ -34,5 +37,4 @@ s.PriorityAsyncLoadingExtraTime=0
 s.PriorityLevelStreamingActorsUpdateExtraTime=0
 
 [Core.Log]
-Global=off
-LogInteractiveProcess=all off
+global=none
