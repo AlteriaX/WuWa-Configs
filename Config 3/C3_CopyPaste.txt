@@ -1,5 +1,5 @@
 ; Remove r.Streaming.FullyLoadUsedTextures=1 if you have 4GB VRAM or less
-; Don't really need FSR for stable 60 FPS but if you want to use delete these -> (r.ScreenPercentage=100 | r.FidelityFX.FSR.PrimaryUpscale=1 | r.FidelityFX.FSR.RCAS.Sharpness=1.0)
+; Don't really need FSR for stable 60 FPS but if you want to use change r.FidelityFX.FSR.RCAS.Sharpness to 0.4/0.6
 
 [SystemSettings]
 r.ScreenPercentage=100
@@ -31,7 +31,7 @@ r.TemporalAA.Upsampling=0
 r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.PrimaryUpscale=1
+r.FidelityFX.FSR.SecondaryUpscale=1
 r.FidelityFX.FSR.RCAS.Sharpness=1.0
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=32
