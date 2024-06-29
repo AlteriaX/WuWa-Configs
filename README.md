@@ -7,8 +7,6 @@ Info folder contains list of commands that have been tested but does not work or
 Common folder contains tweaks for ``Scalability.ini`` to turn off post-processing effects such as:
 ```
 Chromatic Abberation, Depth of Field, Film Grain, Vignette
-Bloom (Doesn't work for current patch even at 0, maybe in the future so going to just leave it in)
-Motion Blur (Even though it's off in settings, game auto applies in certain cutscenes temporarily)
 ```
 
 Copy ``Engine.ini`` (choose one config) and ``Scalability.ini`` to this location: 
