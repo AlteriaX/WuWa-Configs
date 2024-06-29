@@ -1,12 +1,13 @@
-; Change r.ScreenPercentage to a lower value if you need more FPS, won't look great though
+; No longer using UE4 TAA Upscaling since FSR is back
 ; Low setting disable most shadows
 ; Change foliage.DensityScale to 0.1 or higher if you want some grass back
 
 [SystemSettings]
-r.ScreenPercentage=67
+r.ScreenSizeCullRatioFactor=10
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
+r.Kuro.GlobalLightQuality=3
 r.kuro.LensflareSunDiskSize=0.1
 r.AmbientOcclusionMaxQuality=0
 r.Fog=0
@@ -20,14 +21,13 @@ r.Shadow.PerObjectResolutionMax=256
 r.Shadow.PerObjectResolutionMin=256
 r.DetailMode=0
 r.MaterialQualityLevel=0
+r.CompileShadersForDevelopment=0
 r.SSR.Quality=0
 r.TemporalAA.Algorithm=0
-r.TemporalAA.Upsampling=1
+r.TemporalAA.Upsampling=0
+r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.SecondaryUpScale=1
-r.FidelityFX.FSR.RCAS.Sharpness=0.4
-r.Upscale.Quality=5
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=8
 FX.EarlyScheduleAsync=1
@@ -36,6 +36,9 @@ FX.MaxCPUParticlesPerEmitter=48
 fx.MaxNiagaraCPUParticlesPerEmitter=48
 FX.MaxGPUParticlesSpawnedPerFrame=48
 fx.MaxNiagaraGPUParticlesSpawnPerFrame=48
+
+[/Script/Engine.RendererSettings]
+r.GPUCrashDebugging=0
 
 [/Script/Engine.StreamingSettings]
 s.MinBulkDataSizeForAsyncLoading=0

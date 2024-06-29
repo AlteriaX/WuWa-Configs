@@ -1,8 +1,11 @@
+; No longer using UE4 TAA Upscaling since FSR is back
+
 [SystemSettings]
-r.ScreenPercentage=85
+r.ScreenSizeCullRatioFactor=8
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
+r.Kuro.GlobalLightQuality=3
 r.kuro.LensflareSunDiskSize=0.1
 r.AmbientOcclusionMaxQuality=60
 r.Shadow.FilterMethod=0
@@ -13,15 +16,15 @@ r.Shadow.PerObjectResolutionMax=512
 r.Shadow.PerObjectResolutionMin=512
 r.DetailMode=0
 r.MaterialQualityLevel=2
+r.CompileShadersForDevelopment=0
 r.SSR.Quality=2
+r.SSR.Temporal=1
 r.SSR.HalfResSceneColor=1
 r.TemporalAA.Algorithm=0
-r.TemporalAA.Upsampling=1
+r.TemporalAA.Upsampling=0
+r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.SecondaryUpScale=1
-r.FidelityFX.FSR.RCAS.Sharpness=0.6
-r.Upscale.Quality=5
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=16
 FX.EarlyScheduleAsync=1
@@ -30,6 +33,9 @@ FX.MaxCPUParticlesPerEmitter=64
 fx.MaxNiagaraCPUParticlesPerEmitter=64
 FX.MaxGPUParticlesSpawnedPerFrame=64
 fx.MaxNiagaraGPUParticlesSpawnPerFrame=64
+
+[/Script/Engine.RendererSettings]
+r.GPUCrashDebugging=0
 
 [/Script/Engine.StreamingSettings]
 s.MinBulkDataSizeForAsyncLoading=0

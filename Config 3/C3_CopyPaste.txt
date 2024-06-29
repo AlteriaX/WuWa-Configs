@@ -1,10 +1,13 @@
 ; Remove r.Streaming.FullyLoadUsedTextures=1 if you have 4GB VRAM or less
+; Don't really need FSR for stable 60 FPS but if you want to use delete these -> (r.ScreenPercentage=100 | r.FidelityFX.FSR.PrimaryUpscale=1 | r.FidelityFX.FSR.RCAS.Sharpness=1.0)
 
 [SystemSettings]
 r.ScreenPercentage=100
+r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
+r.Kuro.GlobalLightQuality=3
 r.kuro.LensflareSunDiskSize=0.1
 r.AmbientOcclusionMaxQuality=100
 r.Shadow.FilterMethod=0
@@ -15,6 +18,7 @@ r.Shadow.PerObjectResolutionMax=1024
 r.Shadow.PerObjectResolutionMin=1024
 r.DetailMode=1
 r.MaterialQualityLevel=2
+r.CompileShadersForDevelopment=0
 r.Streaming.FullyLoadUsedTextures=1
 r.Streaming.HLODStrategy=2
 r.Streaming.LimitPoolSizeToVRAM=1
@@ -24,9 +28,10 @@ r.SSR.MaxRoughness=1.0
 r.SSR.HalfResSceneColor=0
 r.TemporalAA.Algorithm=0
 r.TemporalAA.Upsampling=0
+r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.SecondaryUpScale=1
+r.FidelityFX.FSR.PrimaryUpscale=1
 r.FidelityFX.FSR.RCAS.Sharpness=1.0
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=32
@@ -36,6 +41,9 @@ FX.MaxCPUParticlesPerEmitter=96
 fx.MaxNiagaraCPUParticlesPerEmitter=96
 FX.MaxGPUParticlesSpawnedPerFrame=96
 fx.MaxNiagaraGPUParticlesSpawnPerFrame=96
+
+[/Script/Engine.RendererSettings]
+r.GPUCrashDebugging=0
 
 [/Script/Engine.StreamingSettings]
 s.MinBulkDataSizeForAsyncLoading=0

@@ -1,8 +1,10 @@
 [SystemSettings]
 r.ScreenPercentage=100
+r.ScreenSizeCullRatioFactor=3
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
+r.Kuro.GlobalLightQuality=4
 r.kuro.LensflareSunDiskSize=0.1
 r.AmbientOcclusionMaxQuality=100
 r.Shadow.FilterMethod=0
@@ -17,6 +19,7 @@ r.LandscapeLODBias=-2
 r.MipMapLODBias=-2
 r.ViewDistanceScale=2
 foliage.LODDistanceScale=2
+r.CompileShadersForDevelopment=0
 r.Streaming.FullyLoadUsedTextures=1
 r.Streaming.HLODStrategy=2
 r.Streaming.LimitPoolSizeToVRAM=1
@@ -26,9 +29,10 @@ r.SSR.MaxRoughness=1.0
 r.SSR.HalfResSceneColor=0
 r.TemporalAA.Algorithm=0
 r.TemporalAA.Upsampling=0
+r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.SecondaryUpScale=1
+r.FidelityFX.FSR.PrimaryUpscale=1
 r.FidelityFX.FSR.RCAS.Sharpness=1.0
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=32
@@ -38,6 +42,9 @@ FX.MaxCPUParticlesPerEmitter=128
 fx.MaxNiagaraCPUParticlesPerEmitter=128
 FX.MaxGPUParticlesSpawnedPerFrame=128
 fx.MaxNiagaraGPUParticlesSpawnPerFrame=128
+
+[/Script/Engine.RendererSettings]
+r.GPUCrashDebugging=0
 
 [/Script/Engine.StreamingSettings]
 s.MinBulkDataSizeForAsyncLoading=0

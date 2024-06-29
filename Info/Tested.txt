@@ -20,8 +20,6 @@ s.AsyncLoadingThreadEnabled
 s.UseBackgroundLevelStreaming
 
 --- Game overwrites/doesn't do anything ---
-r.BloomQuality
-r.CompileShadersForDevelopment
 r.DefaultFeature.AntiAliasing
 r.ReflectionCaptureResolution
 r.SkeletalMeshLODBias
@@ -54,6 +52,7 @@ r.ShaderPipelineCache.StartupMode=1
 --- DLSS ---
 # Game version 1.0.2 uses DLSS v3.5.0, RenderPreset C and Autoexposure ON
 r.NGX.DLSS.Sharpness (does not work for DLSS >= v2.5.1)
+<<<<<<< HEAD
 r.NGX.DLSS.AutoExposure=1 (0=Off, 1=On [Default])
 r.NGX.DLSS.Quality=2 (-2 to 1 works fine, but 2 does not. Game will use 0 instead [-2=Ultra Performance, -1=Performance, 0=Balanced, 1=Quality, 2=Ultra Quality])
 <<<<<<< HEAD
@@ -61,6 +60,10 @@ r.NGX.DLAA.Enable (Does not work. Probably not enabled in UE project)
 r.NGX.DLSS.Preset=3 (0=project setting, 1=A, 2=B, 3=C [default], 4=D, 5=E [not available in DLSS v3.5.0, DLSS >= v3.7 needed], 6=F, 7=G [not implemented yet])
 >>>>>>> 4a364e8 (Small edit)
 =======
+=======
+r.NGX.DLSS.AutoExposure (0=Off, 1=On [Default])
+r.NGX.DLSS.Quality (-2 to 1 works fine, but 2 does not. Game will use 0 instead [-2=Ultra Performance, -1=Performance, 0=Balanced, 1=Quality, 2=Ultra Quality])
+>>>>>>> 91dd51b (Update for 1.1)
 r.NGX.DLAA.Enable (Does not work, not enabled in UE project)
 r.NGX.DLSS.Preset=3 (0=project setting, 1=A, 2=B, 3=C [Default], 4=D, 5=E [not available in DLSS v3.5.0, DLSS >= v3.7 needed], 6=F, 7=G [not implemented yet])
 >>>>>>> 950b6a2 (Update info)
