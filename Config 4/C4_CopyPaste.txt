@@ -1,7 +1,7 @@
 ; No longer using UE4 TAA Upscaling since FSR is back
 
 [SystemSettings]
-r.ScreenSizeCullRatioFactor=8
+r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
@@ -25,6 +25,7 @@ r.TemporalAA.Upsampling=0
 r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
+r.FidelityFX.FSR.RCAS.Sharpness=0.4
 FX.BatchAsync=1
 FX.BatchAsyncBatchSize=16
 FX.EarlyScheduleAsync=1
