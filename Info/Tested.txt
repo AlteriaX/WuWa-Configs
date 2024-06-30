@@ -36,6 +36,7 @@ r.MaxAnisotropy (even at 16 still blurry, set in NVIDIA/AMD Control Panel instea
 r.Streaming.DropMips
 r.UseShaderCaching
 r.UseShaderPredraw
+FX.AllowCulling
 
 --- Game already has it's own cache built, doesn't do anything if you don't compile PSO generated looking at UE docs ---
 r.ShaderPipelineCache.Enabled=1
