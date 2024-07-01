@@ -1,6 +1,9 @@
-; No longer using UE4 TAA Upscaling since FSR is back
+; This config requires FSR off since it's using secondary screen percentage to upscale
+; Set r.SecondaryScreenPercentage.GameViewport to a lower value if you need more FPS
+; If you want to use default FSR, set r.SecondaryScreenPercentage.GameViewport to 100
 
 [SystemSettings]
+r.SecondaryScreenPercentage.GameViewport=85
 r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
@@ -25,13 +28,10 @@ r.TemporalAA.Upsampling=0
 r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
-r.FidelityFX.FSR.RCAS.Sharpness=0.4
+r.FidelityFX.FSR.SecondaryUpscale=1
+r.FidelityFX.FSR.RCAS.Sharpness=0.6
 FX.EarlyScheduleAsync=1
 fx.Niagara.ForceAutoPooling=1
-FX.MaxCPUParticlesPerEmitter=64
-fx.MaxNiagaraCPUParticlesPerEmitter=64
-FX.MaxGPUParticlesSpawnedPerFrame=64
-fx.MaxNiagaraGPUParticlesSpawnPerFrame=64
 
 [/Script/Engine.RendererSettings]
 r.GPUCrashDebugging=0
