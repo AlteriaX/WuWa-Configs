@@ -1,5 +1,7 @@
 # WuWa-Configs
 
+## Configs require mod to apply properly now.
+
 All commands used have different value from the game's default. For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/)
 
 Info folder contains list of commands that have been tested but does not work or already enabled/disabled by default.
@@ -23,3 +25,5 @@ Probably got the performance wrong for some but this should help to choose a con
 | 5      | GT 1030, MX350/250/150                                                            | RX 550, Vega iGPU                                                     | Iris Xe              |
 
 References: [UE4.27 Commands](https://framedsc.com/GeneralGuides/ue4_commands.htm), [UE4 Documentation](https://docs.unrealengine.com/4.27/en-US/), UE Forum
+
+[<img src="https://i.imgur.com/yxCCgvy.png">](https://ko-fi.com/alteria/)
