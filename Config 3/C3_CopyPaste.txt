@@ -1,7 +1,8 @@
 ; Remove r.Streaming.FullyLoadUsedTextures=1 if you have 4GB VRAM or less
-; Don't really need FSR for stable 60 FPS but if you want to use change r.FidelityFX.FSR.RCAS.Sharpness to 0.4/0.6
+; If you want to use SMAA remove r.FidelityFX.FSR.SecondaryUpscale=1 and r.FidelityFX.FSR.RCAS.Sharpness=1.0 or else it'll look oversharpened
 
 [SystemSettings]
+r.ScreenPercentage=100
 r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
@@ -17,7 +18,6 @@ r.Shadow.PerObjectResolutionMax=1024
 r.Shadow.PerObjectResolutionMin=1024
 r.DetailMode=1
 r.MaterialQualityLevel=2
-r.CompileShadersForDevelopment=0
 r.Streaming.FullyLoadUsedTextures=1
 r.Streaming.HLODStrategy=2
 r.Streaming.LimitPoolSizeToVRAM=1
@@ -25,18 +25,19 @@ r.SSR.Quality=3
 r.SSR.Temporal=1
 r.SSR.MaxRoughness=1.0
 r.SSR.HalfResSceneColor=0
+r.DefaultFeature.AntiAliasing=2
 r.TemporalAA.Algorithm=0
 r.TemporalAA.Upsampling=0
 r.TemporalAA.ClampTolerant=0
 r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
+r.TemporalAASamples=2
+r.Kuro.SMAALevelOverride=4
 r.FidelityFX.FSR.SecondaryUpscale=1
 r.FidelityFX.FSR.RCAS.Sharpness=1.0
 FX.EarlyScheduleAsync=1
 fx.Niagara.ForceAutoPooling=1
-
-[/Script/Engine.RendererSettings]
-r.GPUCrashDebugging=0
+wp.Runtime.KuroRuntimeStreamingRangeOverallScale=0.7
 
 [/Script/Engine.StreamingSettings]
 s.MinBulkDataSizeForAsyncLoading=0

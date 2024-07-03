@@ -1,3 +1,5 @@
+--- Commands tested without using any mods ---
+
 --- Already set to 0 (disabled) by the game ---
 r.FinishCurrentFrame
 r.HZBOcclusion
@@ -30,7 +32,7 @@ s.LevelStreamingActorsUpdateTimeLimit
 
 --- Doesn't work properly ---
 r.TemporalAACatmullRom
-r.MaxAnisotropy (even at 16 still blurry, set in NVIDIA/AMD Control Panel instead)
+r.MaxAnisotropy (even at 16 still blurry, set in NVIDIA Control Panel instead - doesn't work the same for AMD)
 
 --- Not recognized by the game ---
 r.Streaming.DropMips
@@ -51,6 +53,7 @@ r.ShaderPipelineCache.StartupMode=1
 r.ShaderPipelineCache.StartupMode=1
 
 --- DLSS ---
+<<<<<<< HEAD
 # Game version 1.0.2 uses DLSS v3.5.0, RenderPreset C and Autoexposure ON
 r.NGX.DLSS.Sharpness (does not work for DLSS >= v2.5.1)
 <<<<<<< HEAD
@@ -68,3 +71,11 @@ r.NGX.DLSS.Quality (-2 to 1 works fine, but 2 does not. Game will use 0 instead 
 r.NGX.DLAA.Enable (Does not work, not enabled in UE project)
 r.NGX.DLSS.Preset=3 (0=project setting, 1=A, 2=B, 3=C [Default], 4=D, 5=E [not available in DLSS v3.5.0, DLSS >= v3.7 needed], 6=F, 7=G [not implemented yet])
 >>>>>>> 950b6a2 (Update info)
+=======
+# Game uses DLSS 3.5.0.0
+r.NGX.DLSS.Sharpness (does not work with DLSS 2.5.1 or higher)
+r.NGX.DLSS.AutoExposure (0 = Off, 1 = On [Default])
+r.NGX.DLSS.Quality (Using 2 will cause the game to use 0 instead [-2 = Ultra Performance, -1 = Performance, 0 = Balanced, 1 = Quality, 2 = Ultra Quality])
+r.NGX.DLAA.Enable (Does not work, not enabled in UE project)
+r.NGX.DLSS.Preset=3 (0 = project setting, 1 = A, 2 = B, 3 = C [Default], 4 = D, 5 = E [need DLSS 3.7 or higher], 6 = F, 7 = G [not implemented yet])
+>>>>>>> 2bdace2 (Update to use with mod)
