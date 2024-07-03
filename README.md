@@ -2,7 +2,9 @@
 
 ## Configs require mod to apply properly now.
 
-All commands used have different value from the game's default. For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/)
+All commands used have different value from the game's default. 
+
+For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
 
 Info folder contains list of commands that have been tested but does not work or already enabled/disabled by default.
 
