@@ -3,6 +3,7 @@
 
 [SystemSettings]
 r.ScreenPercentage=85
+r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
