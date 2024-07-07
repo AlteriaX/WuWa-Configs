@@ -1,5 +1,3 @@
-; SSGI off by default now instead of on compared to previous config, doesn't look great in my opinion and removes most of the Ambient Occlusion
-; Tested on my RTX 3060 at 4K FPS drops by half with SSGI on
 ; If you want to use SMAA remove r.FidelityFX.FSR.SecondaryUpscale=1 and r.FidelityFX.FSR.RCAS.Sharpness=1.0 or else it'll look oversharpened
 
 [SystemSettings]
@@ -24,10 +22,8 @@ foliage.LODDistanceScale=3
 r.Streaming.FullyLoadUsedTextures=1
 r.Streaming.HLODStrategy=2
 r.Streaming.LimitPoolSizeToVRAM=1
-r.SSGI.Enable=0
-r.SSGI.Quality=3
 r.SSR.Quality=4
-r.SSR.Temporal=1
+r.SSR.Temporal=0
 r.SSR.MaxRoughness=1.0
 r.SSR.HalfResSceneColor=0
 r.DefaultFeature.AntiAliasing=2

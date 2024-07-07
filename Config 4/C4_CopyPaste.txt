@@ -3,7 +3,6 @@
 
 [SystemSettings]
 r.ScreenPercentage=85
-r.ScreenSizeCullRatioFactor=5
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
@@ -19,7 +18,7 @@ r.Shadow.PerObjectResolutionMin=512
 r.DetailMode=0
 r.MaterialQualityLevel=2
 r.SSR.Quality=2
-r.SSR.Temporal=1
+r.SSR.Temporal=0
 r.SSR.HalfResSceneColor=1
 r.DefaultFeature.AntiAliasing=2
 r.TemporalAA.Algorithm=0
