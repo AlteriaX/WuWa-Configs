@@ -1,5 +1,3 @@
-
-
 [SystemSettings]
 r.ScreenPercentage=100
 r.ScreenSizeCullRatioFactor=1
