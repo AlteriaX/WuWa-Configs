@@ -1,10 +1,10 @@
 # WuWa-Configs
 
-## Configs require mod to apply properly now.
+## Configs require mod to apply some commands properly now.
 
 All commands used have different value from the game's default. 
 
-For explanations and image comparisons visit my Reddit post: [Link](https://www.reddit.com/r/WutheringWaves/comments/1d07cku/ue4_engine_tweaks_to_improve_visuals_and_reduce/) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
+For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
 
 Info folder contains list of commands that have been tested but does not work or already enabled/disabled by default.
 

@@ -1,5 +1,4 @@
 ; Remove r.Streaming.FullyLoadUsedTextures=1 if you have 4GB VRAM or less
-; If you want to use SMAA remove r.FidelityFX.FSR.SecondaryUpscale=1 and r.FidelityFX.FSR.RCAS.Sharpness=1.0 or else it'll look oversharpened
 
 [SystemSettings]
 r.ScreenPercentage=100
@@ -33,10 +32,12 @@ r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
 r.TemporalAASamples=2
 r.Kuro.SMAALevelOverride=4
-r.FidelityFX.FSR.SecondaryUpscale=1
-r.FidelityFX.FSR.RCAS.Sharpness=1.0
+r.CreateShadersOnLoad=1
+niagara.CreateShadersOnLoad=1
 FX.EarlyScheduleAsync=1
 fx.Niagara.ForceAutoPooling=1
+r.SkinCache.Mode=1
+r.SkinCache.SceneMemoryLimitInMB=256.0
 wp.Runtime.KuroRuntimeStreamingRangeOverallScale=0.7
 
 [/Script/Engine.StreamingSettings]
