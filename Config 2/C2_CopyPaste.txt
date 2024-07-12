@@ -2,7 +2,6 @@
 
 [SystemSettings]
 r.ScreenPercentage=100
-r.ScreenSizeCullRatioFactor=3
 r.Color.Max=1.1
 r.Color.Mid=0.55
 r.KuroTonemapping=1
@@ -34,12 +33,10 @@ r.TemporalAACurrentFrameWeight=0.35
 r.TemporalAAFilterSize=0.1
 r.TemporalAASamples=2
 r.Kuro.SMAALevelOverride=4
-r.CreateShadersOnLoad=1
-niagara.CreateShadersOnLoad=1
 FX.EarlyScheduleAsync=1
 fx.Niagara.ForceAutoPooling=1
-r.SkinCache.Mode=1
-r.SkinCache.SceneMemoryLimitInMB=256.0
+a.URO.ForceAnimRate=10
+a.URO.ForceInterpolation=1
 wp.Runtime.KuroRuntimeStreamingRangeOverallScale=0.8
 
 [/Script/Engine.StreamingSettings]
