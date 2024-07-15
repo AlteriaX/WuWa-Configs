@@ -35,7 +35,7 @@ r.TemporalAASamples=2
 r.Kuro.SMAALevelOverride=4
 FX.EarlyScheduleAsync=1
 fx.Niagara.ForceAutoPooling=1
-a.URO.ForceAnimRate=10
+a.URO.ForceAnimRate=4
 a.URO.ForceInterpolation=1
 wp.Runtime.KuroRuntimeStreamingRangeOverallScale=0.8
 
