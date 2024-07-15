@@ -1,6 +1,6 @@
 # WuWa-Configs
 
-## Configs require mod to apply some commands properly now.
+## Configs require mod in [releases](https://github.com/AlteriaX/WuWa-Configs/releases) to apply some commands properly now.
 
 All commands used have different value from the game's default. 
 
@@ -28,4 +28,4 @@ Probably got the performance wrong for some but this should help to choose a con
 
 References: [UE4.27 Commands](https://framedsc.com/GeneralGuides/ue4_commands.htm), [UE4 Documentation](https://docs.unrealengine.com/4.27/en-US/), UE Forum
 
-[<img src="https://i.imgur.com/yxCCgvy.png">](https://ko-fi.com/alteria/)
+[<img src="https://i.imgur.com/fxmOE8N.png">](https://ko-fi.com/alteria/)
