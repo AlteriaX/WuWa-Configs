@@ -1,7 +1,6 @@
 # WuWa-Configs
 
-## Configs require mod in [releases](https://github.com/AlteriaX/WuWa-Configs/releases) to apply some commands properly now.
-
+## Configs require mod in [releases](https://github.com/AlteriaX/WuWa-Configs/releases) to use some commands, it's listed in the mod information.
 All commands used have different value from the game's default. 
 
 For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
