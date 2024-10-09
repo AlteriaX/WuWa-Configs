@@ -2,7 +2,7 @@
 
 ## [Optional] Configs require mod in [releases](https://github.com/AlteriaX/WuWa-Configs/releases) to use some commands (list is in mod information)
 
-For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
+For explanations and image comparisons: **[Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub)** | **[Discord Server](https://discord.com/invite/JhtKDnu9MK)**
 
 Common folder contains:
 
@@ -11,9 +11,13 @@ Common folder contains:
 Chromatic Abberation, Depth of Field, Film Grain, Vignette
 ```
 
-``DeviceProfiles.ini`` to fix low quality material for laptops/desktops that has AMD iGPU + dedicated GPU active - **[CHECK THIS IMAGE](https://i.postimg.cc/W1jgWC4s/igpu.png)**
+``DeviceProfiles.ini`` to fix low quality material for laptops/desktops that has AMD iGPU + dedicated GPU
+
+Check the image to see if you need the ini file - **[Link to image](https://i.postimg.cc/W1jgWC4s/igpu.png)**
+
 ```
-Material examples: Sanhua's necklace, bronze scale on Jinhsi's outift, water waves in Black Shores and more
+Material examples:
+Sanhua's necklace, bronze scale on Jinhsi's outift, water waves in Black Shores and more
 ```
 
 
