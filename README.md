@@ -1,7 +1,5 @@
 # WuWa-Configs
 
-## [Optional] Configs require mod in [releases](https://github.com/AlteriaX/WuWa-Configs/releases) to use some commands (list is in mod information)
-
 For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
 
 Common folder contains:
