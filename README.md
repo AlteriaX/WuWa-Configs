@@ -4,16 +4,10 @@ For explanations and image comparisons: [Link](https://docs.google.com/document/
 
 Common folder contains:
 
-``Scalability.ini`` to turn off post-processing effects such as:
-```
-Chromatic Abberation, Depth of Field, Film Grain, Vignette
-```
-
 ``DeviceProfiles.ini`` to fix low quality material for laptops/desktops that has AMD iGPU + dedicated GPU active - **[CHECK THIS IMAGE](https://i.postimg.cc/W1jgWC4s/igpu.png)**
 ```
 Material examples: Sanhua's necklace, bronze scale on Jinhsi's outift, water waves in Black Shores and more
 ```
-
 
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
