@@ -1,6 +1,21 @@
 # WuWa-Configs
 
-For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub) | [Discord Server](https://discord.com/invite/JhtKDnu9MK)
+[<img src="https://discord.com/api/guilds/798954204420112454/widget.png?style=banner2">](https://discord.gg/gczjQvgzWE)
+
+For explanations and image comparisons: [Link](https://docs.google.com/document/d/e/2PACX-1vTuIAInOasQNStOkxvBX2qj-SkX1V5us16VZxy5cSSLHlntAIip0avYopPqpgACuaGe9I-5fJrKIyl4/pub)
+
+<details>
+<summary>Launch options</summary>
+<pre>
+-SkipSplash Skip intro videos
+-dx11 Launch the game with DX11
+-dx12 Launch the game with DX12
+-RTX For enabling Ray Tracing
+</pre>
+<a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
+</details>
+
+Check the RT Configs folder for instructions on how to enable RT for RTX 2000/3000 & AMD
 
 Common folder contains:
 
@@ -8,6 +23,7 @@ Common folder contains:
 ```
 Material examples: Sanhua's necklace, bronze scale on Jinhsi's outift, water waves in Black Shores and more
 ```
+``Input.ini`` to disable mouse smoothing and FoV scaling
 
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
