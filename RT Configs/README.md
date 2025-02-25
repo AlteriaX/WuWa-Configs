@@ -1,10 +1,10 @@
 # RT Configs
 
-Choose a config and copy paste the commands to Engine.ini under ``[/Script/Engine.RendererSettings]``
+Choose a config and copy paste the commands to Engine.ini
 
 How to enable ray tracing (options won't show in-game, works for both AMD and NVIDIA)
 
-Add this command to Engine.ini
+Add this command to Engine.ini (Already included in RT Configs)
 ```
 [/Script/Engine.RendererRTXSettings]
 r.RayTracing.LimitDevice=0

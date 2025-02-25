@@ -1,3 +1,5 @@
+[/Script/Engine.RendererRTXSettings]
+r.RayTracing.LimitDevice=0
 r.Lumen.ScreenProbeGather.DownsampleFactor=32
 r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution=16
 r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=240
@@ -12,4 +14,6 @@ r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.2
 r.RayTracingGICaptureRTSize=256
 r.RayTracing.Shadows.MinScissorPercent=0
 r.Shadow.Denoiser.MinScissorPercent=0
-r.RayTracing.Shadows.MaxNumNoScissorCullLights=5
+r.RayTracing.Shadows=1
+r.raytracing.EnableRTWPO=1
+r.raytracing.CachedStaticMeshWPORTCmd=1
