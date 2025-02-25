@@ -1,5 +1,6 @@
 ; RT Shadows can reduce FPS by up to around 20%
-; To disable RT Shadows remove r.RayTracing.Shadows, r.raytracing.EnableRTWPO and r.raytracing.CachedStaticMeshWPORTCmd
+; If you want to try add these commands below (Visual glitch in certain areas)
+; r.RayTracing.Shadows=1 | r.raytracing.EnableRTWPO=1 | r.raytracing.CachedStaticMeshWPORTCmd=1
 
 [/Script/Engine.RendererRTXSettings]
 r.RayTracing.LimitDevice=0
@@ -18,6 +19,3 @@ r.RayTracingGICaptureRTSize=64
 r.RayTracing.Shadows.MinScissorPercent=0.6
 r.Shadow.Denoiser.MinScissorPercent=0.3
 r.RayTracing.Shadows.MaxNumNoScissorCullLights=0
-r.RayTracing.Shadows=1
-r.raytracing.EnableRTWPO=1
-r.raytracing.CachedStaticMeshWPORTCmd=1
