@@ -19,10 +19,6 @@ Check the RT Configs folder for instructions on how to enable RT for RTX 2000/30
 
 Common folder contains:
 
-``DeviceProfiles.ini`` to fix low quality material for laptops/desktops that has AMD iGPU + dedicated GPU active - **[CHECK THIS IMAGE](https://i.postimg.cc/W1jgWC4s/igpu.png)**
-```
-Material examples: Sanhua's necklace, bronze scale on Jinhsi's outift, water waves in Black Shores and more
-```
 ``Input.ini`` to disable mouse smoothing and FoV scaling
 
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
