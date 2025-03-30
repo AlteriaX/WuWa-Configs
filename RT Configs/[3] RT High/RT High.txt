@@ -1,9 +1,15 @@
 ; RT Shadows can reduce FPS by up to around 20%
-; If you want to try add these commands below (Visual glitch in certain areas)
+; If you want to try add these commands below (Does not look correct in certain areas)
 ; r.RayTracing.Shadows=1 | r.raytracing.EnableRTWPO=1 | r.raytracing.CachedStaticMeshWPORTCmd=1
+
+; To enable/disable RT options without in-game settings change the values for the commands below
+; r.Lumen.DiffuseIndirect.Allow | 0 = RT GI Off, 1 = RT GI On
+; r.Lumen.Reflections.Allow | 0 = RT Reflections Off, 1 = RT Reflections On
 
 [/Script/Engine.RendererRTXSettings]
 r.RayTracing.LimitDevice=0
+r.Lumen.DiffuseIndirect.Allow=1
+r.Lumen.Reflections.Allow=1
 r.Lumen.ScreenProbeGather.DownsampleFactor=32
 r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution=16
 r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=240
