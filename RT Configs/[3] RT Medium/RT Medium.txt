@@ -5,6 +5,7 @@ r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=240
 r.Lumen.ScreenProbeGather.TracingOctahedronResolution=8
 r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth=0
 r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse=0
+r.Lumen.Reflections.BilateralFilter=0
 r.Lumen.Reflections.DownsampleFactor=1
 r.Lumen.Reflections.WaterDownsampleFactor=1
 r.Lumen.Reflections.SmoothBias=1.0
