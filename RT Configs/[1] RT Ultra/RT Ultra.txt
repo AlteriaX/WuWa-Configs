@@ -1,4 +1,13 @@
-; If reflections too noisy set r.Lumen.Reflections.BilateralFilter and r.Lumen.Reflections.Temporal to 1
+; If reflections too noisy set the three commands below to 1
+; r.Lumen.Reflections.BilateralFilter
+; r.Lumen.Reflections.ScreenSpaceReconstruction
+; r.Lumen.Reflections.Temporal
+
+; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp
+; Drop the file into ...Wuthering Waves\Wuthering Waves Game\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64
+; Add these commands to Engine.ini under [/Script/Engine.RendererSettings]
+; r.NGX.DLSS.BuiltInDenoiserOverride=0
+; r.NGX.DLSS.DenoiserMode=1
 
 [/Script/Engine.RendererRTXSettings]
 r.Lumen.ScreenProbeGather.DownsampleFactor=8
@@ -8,12 +17,12 @@ r.Lumen.ScreenProbeGather.TracingOctahedronResolution=16
 r.Lumen.ScreenProbeGather.ScreenTraces=1
 r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal=1
 r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth=1
-r.Lumen.ScreenProbeGather.SpatialFilterNumPasses=3
+r.Lumen.ScreenProbeGather.SpatialFilterNumPasses=2
 r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse=1
 r.Lumen.ScreenProbeGather.Temporal.DistanceThreshold=0.005
 r.Lumen.ScreenProbeGather.Temporal.MaxFramesAccumulated=12
-r.Lumen.Reflections.AsyncCompute=1
 r.Lumen.Reflections.BilateralFilter=0
+r.Lumen.Reflections.ScreenSpaceReconstruction=0
 r.Lumen.Reflections.Temporal=0
 r.Lumen.Reflections.DownsampleFactor=1
 r.Lumen.Reflections.WaterDownsampleFactor=1
