@@ -1,9 +1,12 @@
-; If reflections too noisy set the three commands below to 1
-; r.Lumen.Reflections.BilateralFilter
-; r.Lumen.Reflections.ScreenSpaceReconstruction
-; r.Lumen.Reflections.Temporal
+; Reflections more demanding than default due to using full res instead of half res
+; Set r.Lumen.Reflections.DownsampleFactor to 2 for more FPS, won't look nice though
 
-; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp
+; If reflections too blurry use the commands below but leads to more shimmering / noise
+; r.Lumen.Reflections.BilateralFilter=0
+; r.Lumen.Reflections.ScreenSpaceReconstruction=0
+; r.Lumen.Reflections.Temporal=0
+
+; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp (Doesn't look great and kinda demanding but you can try)
 ; Drop the file into ...Wuthering Waves\Wuthering Waves Game\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64
 ; Add these commands to Engine.ini under [/Script/Engine.RendererSettings]
 ; r.NGX.DLSS.BuiltInDenoiserOverride=0
@@ -12,7 +15,7 @@
 [/Script/Engine.RendererRTXSettings]
 r.Lumen.ScreenProbeGather.DownsampleFactor=64
 r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution=8
-r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=150
+r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=200
 r.Lumen.ScreenProbeGather.TracingOctahedronResolution=4
 r.Lumen.ScreenProbeGather.ScreenTraces=0
 r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal=0
@@ -21,15 +24,9 @@ r.Lumen.ScreenProbeGather.SpatialFilterNumPasses=2
 r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse=0
 r.Lumen.ScreenProbeGather.Temporal.DistanceThreshold=0.005
 r.Lumen.ScreenProbeGather.Temporal.MaxFramesAccumulated=32
-r.Lumen.Reflections.BilateralFilter=0
-r.Lumen.Reflections.ScreenSpaceReconstruction=0
-r.Lumen.Reflections.Temporal=0
 r.Lumen.Reflections.DownsampleFactor=1
 r.Lumen.Reflections.WaterDownsampleFactor=1
-r.Lumen.Reflections.RadianceCache=1
 r.Lumen.Reflections.ScreenTraces=0
 r.Lumen.Reflections.SmoothBias=1.0
 r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.2
 r.Lumen.TranslucencyReflections.FrontLayer.Allow=0
-r.RayTracing.Shadows.MinScissorPercent=0.6
-r.Shadow.Denoiser.MinScissorPercent=0.3
