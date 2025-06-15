@@ -2,8 +2,6 @@
 
 ## Configs for Android
 
-Recommended to use the configs with Anti-Aliasing On in settings.
-
 On newer Android versions you need to use Shizuku to access the data folder, won't write a guide for this so do a Google search about it.
 
 Config location for Android:
@@ -12,6 +10,9 @@ Config location for Android:
 
 Other commands that might be useful:
 ```
+; Enable/disable interactive leaves
+Kuro.InteractiveLeavesForceMobilePreview=1
+
 ; Enable/disable AFME feature
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1

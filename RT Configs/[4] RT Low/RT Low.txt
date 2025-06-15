@@ -1,5 +1,5 @@
-; Reflections more demanding than default due to using full res instead of half res
-; Set r.Lumen.Reflections.DownsampleFactor to 2 for more FPS, won't look nice though
+; To use RT Reflections at full res set r.Lumen.Reflections.DownsampleFactor to 1
+; Game default is 2, expect FPS to drop quite a bit at full res
 
 ; If reflections too blurry use the commands below but leads to more shimmering / noise
 ; r.Lumen.Reflections.BilateralFilter=0
@@ -24,7 +24,7 @@ r.Lumen.ScreenProbeGather.SpatialFilterNumPasses=2
 r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse=0
 r.Lumen.ScreenProbeGather.Temporal.DistanceThreshold=0.005
 r.Lumen.ScreenProbeGather.Temporal.MaxFramesAccumulated=32
-r.Lumen.Reflections.DownsampleFactor=1
+r.Lumen.Reflections.DownsampleFactor=2
 r.Lumen.Reflections.WaterDownsampleFactor=1
 r.Lumen.Reflections.ScreenTraces=0
 r.Lumen.Reflections.SmoothBias=1.0
