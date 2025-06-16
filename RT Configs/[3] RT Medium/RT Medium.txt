@@ -1,10 +1,5 @@
-; To use RT Reflections at full res set r.Lumen.Reflections.DownsampleFactor to 1
+; To use RT Reflections at full res set r.Lumen.Reflections.DownsampleFactor and r.Lumen.TranslucencyReflections.FrontLayer.DownsampleFactor to 1
 ; Game default is 2, expect FPS to drop quite a bit at full res
-
-; If reflections too blurry use the commands below but leads to more shimmering / noise
-; r.Lumen.Reflections.BilateralFilter=0
-; r.Lumen.Reflections.ScreenSpaceReconstruction=0
-; r.Lumen.Reflections.Temporal=0
 
 ; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp (Doesn't look great and kinda demanding but you can try)
 ; Drop the file into ...Wuthering Waves\Wuthering Waves Game\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64
@@ -15,7 +10,7 @@
 [/Script/Engine.RendererRTXSettings]
 r.Lumen.ScreenProbeGather.DownsampleFactor=32
 r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution=16
-r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=250
+r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget=225
 r.Lumen.ScreenProbeGather.TracingOctahedronResolution=8
 r.Lumen.ScreenProbeGather.ScreenTraces=1
 r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal=0
@@ -24,9 +19,11 @@ r.Lumen.ScreenProbeGather.SpatialFilterNumPasses=2
 r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse=0
 r.Lumen.ScreenProbeGather.Temporal.DistanceThreshold=0.005
 r.Lumen.ScreenProbeGather.Temporal.MaxFramesAccumulated=24
+r.Lumen.Reflections.AsyncCompute=1
+r.Lumen.Reflections.BilateralFilter=0
 r.Lumen.Reflections.DownsampleFactor=2
 r.Lumen.Reflections.WaterDownsampleFactor=1
-r.Lumen.Reflections.ScreenTraces=1
 r.Lumen.Reflections.SmoothBias=1.0
 r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.2
-r.Lumen.TranslucencyReflections.FrontLayer.Allow=0
+r.Lumen.TranslucencyReflections.FrontLayer.Allow=1
+r.Lumen.TranslucencyReflections.FrontLayer.DownsampleFactor=2
