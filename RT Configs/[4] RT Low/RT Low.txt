@@ -4,6 +4,9 @@
 ; If you want better quality / mirror-like reflections set r.Lumen.Reflections.SmoothBias to 1.0
 ; Around 5-6 FPS drop but could be more depending on GPU and resolution
 
+; To fix blocky character or object shadows in reflections or SSR-like problems set r.Lumen.Reflections.ScreenTraces to 0
+; The downside is that some objects does not get reflected anymore
+
 ; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp (Doesn't look great and kinda demanding but you can try)
 ; Drop the file into ...Wuthering Waves\Wuthering Waves Game\Engine\Plugins\Runtime\Nvidia\DLSS\Binaries\ThirdParty\Win64
 ; Add these commands to Engine.ini under [/Script/Engine.RendererSettings]
@@ -23,6 +26,7 @@ r.Lumen.ScreenProbeGather.Temporal.DistanceThreshold=0.005
 r.Lumen.ScreenProbeGather.Temporal.MaxFramesAccumulated=32
 r.Lumen.Reflections.AsyncCompute=1
 r.Lumen.Reflections.BilateralFilter=0
+r.Lumen.Reflections.ScreenTraces=1
 r.Lumen.Reflections.DownsampleFactor=2
 r.Lumen.Reflections.WaterDownsampleFactor=1
 r.Lumen.Reflections.SmoothBias=0.5
