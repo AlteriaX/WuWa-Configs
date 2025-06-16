@@ -1,6 +1,6 @@
 # RT Configs
 
-### No changes done for RT Shadows, just RT Global Illumnination and Reflections
+### No changes done for RT Shadows, just RT Global Illumination and Reflections
 
 Choose a config and copy paste the commands to Engine.ini
 
