@@ -14,7 +14,15 @@ For explanations and image comparisons: [Link](https://docs.google.com/document/
 <a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
 </details>
 
-Common folder contains: ``Input.ini`` to disable mouse smoothing and FoV scaling
+---
+
+Common folder contains:
+
+``DeviceProfiles.ini`` to show Ultra Quality option on unsupported GPUs **[(Must have CPU that supports 120 FPS)](https://wutheringwaves.kurogames.com/en/main/news/detail/1190)**
+
+``Input.ini`` to disable mouse smoothing and FoV scaling
+
+---
 
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
 > ..Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
