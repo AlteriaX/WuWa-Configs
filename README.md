@@ -18,7 +18,7 @@ For explanations and image comparisons: [Link](https://docs.google.com/document/
 
 Common folder contains:
 
-``DeviceProfiles.ini`` to show Ultra Quality option on unsupported GPUs **[(Must have CPU that supports 120 FPS)](https://wutheringwaves.kurogames.com/en/main/news/detail/1190)**
+``DeviceProfiles.ini`` to show Ultra Quality or 120 FPS option in game settings on unsupported GPUs **[(Must have CPU that supports 120 FPS)](https://wutheringwaves.kurogames.com/en/main/news/detail/1190)**
 
 ``Input.ini`` to disable mouse smoothing and FoV scaling
 
