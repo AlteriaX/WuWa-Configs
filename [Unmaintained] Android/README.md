@@ -2,6 +2,8 @@
 
 ## Configs for Android
 
+Try not to ask me questions, I'm not that interested in doing configs for Android.
+
 On newer Android versions you need to use Shizuku to access the data folder, won't write a guide for this so do a Google search about it.
 
 Config location for Android:
@@ -10,12 +12,20 @@ Config location for Android:
 
 Other commands that might be useful:
 ```
+All commands listed are placed in Engine.ini under [/Script/Engine.RendererSettings]
+
 ; Enable/disable interactive leaves
 Kuro.InteractiveLeavesForceMobilePreview=1
 
-; Enable/disable AFME feature
+; To use Vulkan instead of OpenGL
+r.Android.DisableVulkanSupport=0
+
+; Enable/disable AFME feature (Frame Gen)
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1
+
+; To fix black texture/color flicker issue with AFME (Frame Gen)
+r.DefaultBackBufferPixelFormat=0
 
 ; Enable/disable Snapdragon Game Super Resolution 2
 r.SGSR2.Enabled=1
