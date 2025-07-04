@@ -20,6 +20,9 @@ Kuro.InteractiveLeavesForceMobilePreview=1
 ; To use Vulkan instead of OpenGL
 r.Android.DisableVulkanSupport=0
 
+; 0: Disable | 1: Enable (FPS reduces to 30 when CPU temp is over 65°C)
+r.Kuro.AutoCoolEnable=1
+
 ; Enable/disable AFME feature (Frame Gen)
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1

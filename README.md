@@ -4,9 +4,13 @@
 
 **For explanations and image comparisons:** [Link](https://alteriax.github.io/WuWa-Config-Info/)
 
+**IF POSSIBLE, TRY TO STICK TO QUALITY/ULTRA QUALITY PRESET (IT'S OK TO CHANGE SETTINGS)**
+
 <details>
 <summary>Launch options</summary>
 <pre>
+; Steam version opens game with different exe which doesn't work with launch options
+; Creating shortcut for Steam version works but hours won't be tracked<br>
 -SkipSplash Skip intro videos
 -dx11 Launch the game with DX11
 -dx12 Launch the game with DX12
