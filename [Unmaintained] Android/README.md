@@ -4,7 +4,7 @@
 
 Try not to ask me questions, I'm not that interested in doing configs for Android.
 
-On newer Android versions you need to use Shizuku to access the data folder, won't write a guide for this so do a Google search about it.
+On newer Android versions you need to use Shizuku (or any other alternative) to access the data folder, won't write a guide for this so do a Google search about it.
 
 Config location for Android:
 
