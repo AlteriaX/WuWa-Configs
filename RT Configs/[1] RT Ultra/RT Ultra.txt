@@ -1,7 +1,9 @@
-; If you want better quality / mirror-like reflections set r.Lumen.Reflections.SmoothBias to 1.0
-; Around 5-6 FPS drop but could be more depending on GPU and resolution
+; More demanding compared to default RT High, only use if you have RTX 4090/5090 or don't need extra FPS
 
-; To fix blocky character or object shadows in reflections or SSR-like problems set r.Lumen.Reflections.ScreenTraces to 0
+; If reflections are too mirror-like set r.Lumen.Reflections.SmoothBias to 0.5 (default value)
+; Lowering smooth bias to default will increase frame rates by 5-6 FPS (may vary depending on GPU/resolution)
+
+; To fix blocky character / object shadows in reflections or SSR-like problems set r.Lumen.Reflections.ScreenTraces to 0
 ; The downside is that some objects does not get reflected anymore
 
 ; To use NVIDIA Ray Reconstruction download the DLLs from TechPowerUp (Doesn't look great and kinda demanding but you can try)
@@ -25,7 +27,7 @@ r.Lumen.Reflections.BilateralFilter=0
 r.Lumen.Reflections.ScreenTraces=1
 r.Lumen.Reflections.DownsampleFactor=1
 r.Lumen.Reflections.WaterDownsampleFactor=1
-r.Lumen.Reflections.SmoothBias=0.5
+r.Lumen.Reflections.SmoothBias=1.0
 r.Lumen.Reflections.MaxRoughnessToTraceForFoliage=0.4
 r.Lumen.TranslucencyReflections.FrontLayer.Allow=1
 r.Lumen.TranslucencyReflections.FrontLayer.DownsampleFactor=1
