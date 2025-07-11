@@ -1,4 +1,4 @@
-# NO LONGER MAINTAINED
+# SLOW UPDATE - DON'T ASK WHEN
 
 ## Configs for Android
 
