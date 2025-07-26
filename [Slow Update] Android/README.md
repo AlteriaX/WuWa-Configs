@@ -24,8 +24,15 @@ r.Android.DisableVulkanSupport=0
 r.Kuro.AutoCoolEnable=1
 
 ; Enable/disable AFME feature (Frame Gen)
+; Not sure if the other commands are needed for FG to work properly (Don't have recent phone to test)
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1
+r.AFMEIsProcessTransparent=1
+r.AFMEIsTransparentReliable=1
+r.FEstimation.Option=1
+r.Mobile.KuroSeparateTranslucency=1
+OpenGL.DisableBlendStateCache=1
+rhi.SyncInterval=0
 
 ; To fix black texture/color flicker issue with AFME (Frame Gen)
 r.DefaultBackBufferPixelFormat=0
