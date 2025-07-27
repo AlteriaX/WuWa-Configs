@@ -7,19 +7,7 @@
 **TRY TO STICK TO QUALITY/ULTRA QUALITY PRESET (IT'S OK TO CHANGE SETTINGS AFTER CHOOSING PRESET)**
 
 <details>
-<summary>Launch options</summary>
-<pre>
-; Steam version opens game with different exe which doesn't work with launch options
-; Creating shortcut for Steam version works but hours won't be tracked<br>
--SkipSplash Skip intro videos
--dx11 Launch the game with DX11
--dx12 Launch the game with DX12
-</pre>
-<a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
-</details>
-
-<details>
-<summary>Frequently asked questions</summary>
+<summary>Frequently Asked Questions (FAQ)</summary>
 
 - **Will I get banned for using this?**  
 Highly unlikely, I've been tweaking ini files since release with no issues.
@@ -37,6 +25,18 @@ This shouldn't happen but if it does set the file to read-only.
 - **How do I reset the ini files back to default?**  
 Just delete the ini files, launching the game will create a new empty one.
 
+</details>
+
+<details>
+<summary>Launch Options</summary>
+<pre>
+; Steam version opens game with different exe which doesn't work with launch options
+; Creating shortcut for Steam version works but hours won't be tracked<br>
+-SkipSplash Skip intro videos
+-dx11 Launch the game with DX11
+-dx12 Launch the game with DX12 (Games uses this by default)
+</pre>
+<a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
 </details>
 
 ---
