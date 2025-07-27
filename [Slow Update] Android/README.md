@@ -49,4 +49,13 @@ r.SGSR2.Quality=1
 ; 0: Use 9 sample for better quality | 1: Use 5 sample for better performance
 r.SGSR2.5Sample=1
 ```
+
+Common folder contains:
+
+`` UE4CommandLine.txt `` Skip Intro video
+
+Copy this file to this location:
+
+> /storage/emulated/0/Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/
+
 [<img src="https://i.imgur.com/fxmOE8N.png">](https://ko-fi.com/alteria/)
