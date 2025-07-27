@@ -10,6 +10,18 @@ Config location for Android:
 
 ![Android Config Location](https://i.imgur.com/LquUnoX.png)
 
+---
+
+Common folder contains:
+
+`` UE4CommandLine.txt `` to skip intro videos
+
+Copy the file to this location:
+
+> /storage/emulated/0/Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/
+
+---
+
 Other commands that might be useful:
 ```
 All commands listed are placed in Engine.ini under [/Script/Engine.RendererSettings]
@@ -49,13 +61,5 @@ r.SGSR2.Quality=1
 ; 0: Use 9 sample for better quality | 1: Use 5 sample for better performance
 r.SGSR2.5Sample=1
 ```
-
-Common folder contains:
-
-`` UE4CommandLine.txt `` Skip Intro video
-
-Copy this file to this location:
-
-> /storage/emulated/0/Android/data/com.kurogame.wutheringwaves.global/files/UE4Game/Client/
 
 [<img src="https://i.imgur.com/fxmOE8N.png">](https://ko-fi.com/alteria/)
