@@ -29,25 +29,8 @@ All commands listed are placed in Engine.ini under [/Script/Engine.RendererSetti
 ; Enable/disable interactive leaves
 Kuro.InteractiveLeavesForceMobilePreview=1
 
-; To use Vulkan instead of OpenGL
-r.Android.DisableVulkanSupport=0
-
 ; 0: Disable | 1: Enable (FPS reduces to 30 when CPU temp is over 65°C)
 r.Kuro.AutoCoolEnable=1
-
-; Enable/disable AFME feature (Frame Gen)
-; Not sure if the other commands are needed for FG to work properly (Don't have recent phone to test)
-r.AFME.Enable=1
-r.AFME.Kuro.Enable=1
-r.AFMEIsProcessTransparent=1
-r.AFMEIsTransparentReliable=1
-r.FEstimation.Option=1
-r.Mobile.KuroSeparateTranslucency=1
-OpenGL.DisableBlendStateCache=1
-rhi.SyncInterval=0
-
-; To fix black texture/color flicker issue with AFME (Frame Gen)
-r.DefaultBackBufferPixelFormat=0
 
 ; Enable/disable Snapdragon Game Super Resolution 2
 r.SGSR2.Enabled=1
@@ -60,6 +43,28 @@ r.SGSR2.Quality=1
 
 ; 0: Use 9 sample for better quality | 1: Use 5 sample for better performance
 r.SGSR2.5Sample=1
+
+; To show Vulkan / Frame Gen in game settings
+r.Mobile.DeviceEvaluation=3
+
+; To fix black texture/color flicker issue with AFME (Frame Gen)
+r.DefaultBackBufferPixelFormat=0
+
+----- Leaving this here for manual tweak if in-game settings doesn't work well ------
+
+; To use Vulkan instead of OpenGL
+r.Android.DisableVulkanSupport=0
+
+; Enable/disable AFME feature (Frame Gen)
+; Not sure if the other commands are needed for FG to work properly (Don't have recent phone to test)
+r.AFME.Enable=1
+r.AFME.Kuro.Enable=1
+r.AFMEIsProcessTransparent=1
+r.AFMEIsTransparentReliable=1
+r.FEstimation.Option=1
+r.Mobile.KuroSeparateTranslucency=1
+OpenGL.DisableBlendStateCache=1
+rhi.SyncInterval=0
 ```
 
 [<img src="https://i.imgur.com/fxmOE8N.png">](https://ko-fi.com/alteria/)
