@@ -46,6 +46,8 @@ r.SGSR2.5Sample=1
 
 ; To show Vulkan / Frame Gen in game settings
 r.Mobile.DeviceEvaluation=3
+r.AFME.Enable=1
+r.AFME.Kuro.Enable=1
 
 ; To fix black texture/color flicker issue with AFME (Frame Gen)
 r.DefaultBackBufferPixelFormat=0
@@ -55,10 +57,8 @@ r.DefaultBackBufferPixelFormat=0
 ; To use Vulkan instead of OpenGL
 r.Android.DisableVulkanSupport=0
 
-; Enable/disable AFME feature (Frame Gen)
-; Not sure if the other commands are needed for FG to work properly (Don't have recent phone to test)
-r.AFME.Enable=1
-r.AFME.Kuro.Enable=1
+; These commands are used for default Adreno 830 Profile
+; Not sure if the other commands are needed for Frame Gen to work properly
 r.AFMEIsProcessTransparent=1
 r.AFMEIsTransparentReliable=1
 r.FEstimation.Option=1
