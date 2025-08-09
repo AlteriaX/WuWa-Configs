@@ -4,9 +4,11 @@ RT Ultra is more demanding compared to default RT High, only use if you have RTX
 
 ---
 
-Default RT Low/Medium/High settings are decent so I'm not making configs for those
+RT High/Medium/Low is similar to default with minor changes
 
-Use the commands from **RT Common** and adjust the values accordingly
+**OR**
+
+If you prefer to use game default and improve it yourself use the commands from here: [WuWa Config Info](https://alteriax.github.io/WuWa-Config-Info/#info-11)
 
 ---
 
