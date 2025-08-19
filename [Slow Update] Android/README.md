@@ -22,43 +22,44 @@ Copy the file to this location:
 
 ---
 
-Other commands that might be useful:
+Commands not included in config that might be useful:
 ```
-All commands listed are placed in Engine.ini under [/Script/Engine.RendererSettings]
+Place commands in Engine.ini
+Under [/Script/Engine.RendererSettings]
 
 ; Enable/disable interactive leaves
 Kuro.InteractiveLeavesForceMobilePreview=1
 
-; 0: Disable | 1: Enable (FPS reduces to 30 when CPU temp is over 65°C)
+; 0: Disable | 1: Enable
+; Lowers FPS to 30 when CPU temp over 65°C
 r.Kuro.AutoCoolEnable=1
 
 ; Enable/disable Snapdragon Game Super Resolution 2
 r.SGSR2.Enabled=1
 
-; 0: PF_FloatRGBA (better quality) | 1: PF_FloatR11G11B10
+; 0: PF_FloatRGBA (better quality)
+; 1: PF_FloatR11G11B10
 r.SGSR2.History=0
 
 ; 0: Ultra Quality | 1: Quality | 2: Balanced | 3: Performance
 r.SGSR2.Quality=1
 
-; 0: Use 9 sample for better quality | 1: Use 5 sample for better performance
+; 0: Use 9 sample (better quality)
+; 1: Use 5 sample (better performance)
 r.SGSR2.5Sample=1
 
-; To show Vulkan / Frame Gen in game settings
+; To show Vulkan / Frame Gen in settings
 r.Mobile.DeviceEvaluation=3
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1
 
-; To fix black texture/color flicker issue with AFME (Frame Gen)
-r.DefaultBackBufferPixelFormat=0
-
------ Leaving this here for manual tweak if in-game settings doesn't work well ------
+--- Other commands if needed ----
 
 ; To use Vulkan instead of OpenGL
 r.Android.DisableVulkanSupport=0
 
-; These commands are used for default Adreno 830 Profile
-; Not sure if the other commands are needed for Frame Gen to work properly
+; Used by default Adreno 830 Profile
+; Not sure if needed for AFME to work properly
 r.AFMEIsProcessTransparent=1
 r.AFMEIsTransparentReliable=1
 r.FEstimation.Option=1
