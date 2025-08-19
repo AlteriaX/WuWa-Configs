@@ -24,8 +24,7 @@ Copy the file to this location:
 
 Commands not included in config that might be useful:
 ```
-Place commands in Engine.ini
-Under [/Script/Engine.RendererSettings]
+Place commands in Engine.ini under [SystemSettings]
 
 ; Enable/disable interactive leaves
 Kuro.InteractiveLeavesForceMobilePreview=1
