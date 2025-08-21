@@ -54,13 +54,13 @@ Copy ``Engine.ini`` (choose one config) and other ini files to this location:
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**
 
-| Config | NVIDIA                                                                                          | AMD                                                                     | Intel                            |
-|--------|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| 1      | RTX 5090, 5080, 5070 (Ti), 4090, 4080, 4070, 3090, 3080 (Ti)                                    | RX 9070 (XT), 7900 XTX/XT/GRE, 7800 XT, 6950 XT, 6900 XT, 6800 XT       |                                  |
-| 2      | RTX 5060 (Ti), 5050, 4060 (Ti), 4050, 3070 (Ti), 3060 (Ti), 2080, 2070, 2060 SUPER, GTX 1080 Ti | RX 9060 (XT), 7700 XT, 7600 (XT), 6800, 6700 (XT), 6600 (XT), 5700 (XT) | Arc B580, B570, A770, A750, A580 |
-| 3      | RTX 3050, 2060, GTX 1660 (SUPER/Ti), 1650 SUPER, 1080, 1070, 1060 6GB                           | RX 6500 XT, 5600 XT, 5500 XT, 590, 580                                  |                                  |
-| 4      | RTX 2050, GTX 1650 (Ti), 1060 3GB                                                               | RX 6400, 580 2048SP, 570, Radeon 890M, 780M                             | Arc 140V, A380, A310, Arc iGPU   |
-| 5      | GTX 1050 (Ti), GT 1030, MX 450, 350, 250, 150                                                   | RX 560, 550, Radeon 680M, Vega iGPU                                     | Iris Xe                          |
+| Config | NVIDIA                                                                                                      | AMD                                                                          | Intel                            |
+|--------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|----------------------------------|
+| 1      | RTX 5090, 5080, 5070 (Ti), 4090, 4080, 4070 (SUPER/Ti), 3090, 3080 Ti                                            | RX 9070 (XT), 7900 XTX/XT/GRE, 7800 XT, 6950 XT, 6900 XT                     |                                  |
+| 2      | RTX 5060 (Ti), 5050, 4070, 4060 (Ti), 4050, 3080, 3070 (Ti), 3060 (Ti), 2080, 2070, 2060 SUPER, GTX 1080 Ti | RX 9060 (XT), 7700 XT, 7600 (XT), 6800 (XT), 6700 (XT), 6600 (XT), 5700 (XT) | Arc B580, B570, A770, A750, A580 |
+| 3      | RTX 3050, 2060, GTX 1660 (SUPER/Ti), 1650 SUPER, 1080, 1070, 1060 6GB                                       | RX 6500 XT, 5600 XT, 5500 XT, 590, 580                                       |                                  |
+| 4      | RTX 2050, GTX 1650 (Ti), 1060 3GB                                                                           | RX 6400, 580 2048SP, 570, Radeon 890M, 780M                                  | Arc 140V, A380, A310, Arc iGPU   |
+| 5      | GTX 1050 (Ti), GT 1030, MX 450, 350, 250, 150                                                               | RX 560, 550, Radeon 680M, Vega iGPU                                          | Iris Xe                          |
 
 References: [UE4.27 Commands](https://framedsc.com/GeneralGuides/ue4_commands.htm), [UE4 Documentation](https://docs.unrealengine.com/4.27/en-US/), UE Forum
 
