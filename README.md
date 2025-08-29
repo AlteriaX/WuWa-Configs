@@ -2,10 +2,6 @@
 
 [<img src="https://discord.com/api/guilds/798954204420112454/widget.png?style=banner2">](https://discord.gg/gczjQvgzWE)
 
-**FOR EXPLANATIONS AND IMAGE COMPARISONS:** [https://alteriax.github.io/WuWa-Config-Info/](https://alteriax.github.io/WuWa-Config-Info/)
-
-**TRY TO STICK TO QUALITY/ULTRA QUALITY PRESET (IT'S OK TO CHANGE SETTINGS AFTER CHOOSING PRESET)**
-
 <details>
 <summary>Frequently Asked Questions (FAQ)</summary>
 
@@ -38,6 +34,8 @@ Just delete the ini files, launching the game will create a new empty one.
 </pre>
 <a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
 </details>
+
+**FOR EXPLANATIONS AND IMAGE COMPARISONS:** [https://alteriax.github.io/WuWa-Config-Info/](https://alteriax.github.io/WuWa-Config-Info/)
 
 ---
 

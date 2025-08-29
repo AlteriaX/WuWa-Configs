@@ -8,7 +8,7 @@ RT High/Medium/Low is similar to default with minor changes
 
 **OR**
 
-If you prefer to use game default and improve it yourself use the commands from here: [WuWa Config Info](https://alteriax.github.io/WuWa-Config-Info/#info-11)
+If you prefer to use game default and improve it yourself use the commands from here: [WuWa Config Info](https://alteriax.github.io/WuWa-Config-Info/#raytracing)
 
 ---
 
