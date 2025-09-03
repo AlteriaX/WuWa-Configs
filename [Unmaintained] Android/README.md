@@ -30,6 +30,10 @@ Under [/Script/Engine.RendererSettings]
 ; Enable/disable interactive leaves
 Kuro.InteractiveLeavesForceMobilePreview=1
 
+; May improve Vulkan stability/performance
+r.Vulkan.RobustBufferAccess=0
+r.Vulkan.DescriptorSetLayoutMode=0
+
 ; 0: Disable | 1: Enable
 ; Lowers FPS to 30 when CPU temp over 65°C
 r.Kuro.AutoCoolEnable=1
