@@ -38,20 +38,6 @@ r.Vulkan.DescriptorSetLayoutMode=0
 ; Lowers FPS to 30 when CPU temp over 65°C
 r.Kuro.AutoCoolEnable=1
 
-; Enable/disable Snapdragon Game Super Resolution 2
-r.SGSR2.Enabled=1
-
-; 0: PF_FloatRGBA (better quality)
-; 1: PF_FloatR11G11B10
-r.SGSR2.History=0
-
-; 0: Ultra Quality | 1: Quality | 2: Balanced | 3: Performance
-r.SGSR2.Quality=1
-
-; 0: Use 9 sample (better quality)
-; 1: Use 5 sample (better performance)
-r.SGSR2.5Sample=1
-
 ; To enable Frame Gen (Snapdragon only)
 r.AFME.Enable=1
 r.AFME.Kuro.Enable=1
