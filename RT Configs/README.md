@@ -22,3 +22,11 @@ r.NGX.DLSS.DenoiserMode=1
 ```
 - Launch the game directly using ``Client-Win64-Shipping.exe`` in ``...\Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``
 - Do not launch the game through launcher as it will check file integrity and replace the file
+
+---
+
+To fix buggy RT Global Illumination on AMD RX 9000 series add the command below to Engine.ini under ``[/Script/Engine.RendererSettings]``
+```
+r.Lumen.ScreenProbeGather.HardwareRayTracing=0
+```
+No fix for the buggy RT Reflections
