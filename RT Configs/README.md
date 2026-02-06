@@ -17,16 +17,12 @@ To disable denoiser and default TAA to use with DLSS Preset L or M (see [Digital
 Add these commands to Engine.ini under ``[/Script/Engine.RendererSettings]`` 
 ```
 r.AmbientOcclusion.Denoiser=0
-r.DiffuseIndirect.Denoiser=0
 r.Reflections.Denoiser=0
 r.Shadow.Denoiser=0
 r.Water.SingleLayer.SSRTAA=0
 r.Lumen.Reflections.BilateralFilter=0
 r.Lumen.Reflections.Temporal=0
 r.Lumen.Reflections.ScreenSpaceReconstruction=0
-r.Lumen.ScreenProbeGather.Temporal=0
-r.RayTracing.GlobalIllumination.Denoiser=0
-r.RayTracing.SkyLight.Denoiser=0
 ```
 
 ---
