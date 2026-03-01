@@ -8,11 +8,13 @@ RT High/Medium/Low is similar to default with minor changes
 
 **OR**
 
-If you prefer to use game default and improve it yourself use the commands from here: [WuWa Config Info](https://alteriax.github.io/WuWa-Config-Info/#raytracing)
+Use game default and improve it yourself with commands from here: [WuWa Config Info](https://alteriax.github.io/WuWa-Config-Info/#raytracing)
 
 ---
 
 To disable denoiser and default TAA to use with DLSS Preset L or M (see [Digital Foundry video](https://youtu.be/Lv8tJoiApd8?t=386) for reason and examples)
+
+Only works well with RT High, not good enough to denoise RT Low or Medium
 
 Add these commands to Engine.ini under ``[/Script/Engine.RendererSettings]`` 
 ```
@@ -35,8 +37,4 @@ To use NVIDIA Ray Reconstruction (Kinda demanding but you can try)
 
 ---
 
-To fix buggy RT Global Illumination on AMD RX 9000 series add the command below to Engine.ini under ``[/Script/Engine.RendererSettings]``
-```
-r.Lumen.ScreenProbeGather.HardwareRayTracing=0
-```
-No fix for the buggy RT Reflections
+RT problems for AMD fixed with driver version 26.2.2
