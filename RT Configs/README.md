@@ -12,13 +12,12 @@ Use game default and improve it yourself with commands from here: [WuWa Config I
 
 ---
 
-To disable denoiser and default TAA to use with DLSS Preset L or M (see [Digital Foundry video](https://youtu.be/Lv8tJoiApd8?t=386) for reason and examples)
+To disable denoiser and default TAA for reflection to use with DLSS Preset L or M (see [Digital Foundry video](https://youtu.be/Lv8tJoiApd8?t=386) for reason and examples)
 
 Only works well with RT High, not good enough to denoise RT Low or Medium
 
 Add these commands to Engine.ini under ``[/Script/Engine.RendererSettings]`` 
 ```
-r.AmbientOcclusion.Denoiser=0
 r.Reflections.Denoiser=0
 r.Water.SingleLayer.SSRTAA=0
 r.Lumen.Reflections.BilateralFilter=0
