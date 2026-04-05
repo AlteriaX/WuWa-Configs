@@ -45,6 +45,8 @@ Copy ``Engine.ini`` (choose one config) and ``run_wuwa.bat`` from Common folder 
 
 Make sure to open the game with ``run_wuwa.bat`` or else the config won't work (You can also do it manually using launch option listed above)
 
+> Note: It's normal for a lot of stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t set it to read-only, as this will cause stutters. You can leave the older Engine.ini or delete it, it won't use the one from WindowsNoEditor folder anymore.
+
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
 
