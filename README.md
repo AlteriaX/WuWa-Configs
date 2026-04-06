@@ -15,8 +15,8 @@ If you run into issues, just grab the latest version of the config as I update i
 - **Can I change in-game settings?**  
 Yes, it won't override any of the changes done through Engine.ini.
 
-- **Ini files resets back to default upon game launch.**  
-This shouldn't happen but if it does set the file to read-only.
+- **Character shadows suddenly missing / low texture quality.**  
+Switch to another Graphics Quality Preset then back to the same one, you can customize the settings after.
   
 - **How do I reset the ini files back to default?**  
 Just delete the ini files, launching the game will create a new one.
@@ -40,12 +40,18 @@ Just delete the ini files, launching the game will create a new one.
 
 # Installation
 
-Copy ``Engine.ini`` (choose one config) and ``run_wuwa.bat`` from Common folder to this location: 
-> ...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64 (Please check properly, different from previous location)
+Copy ``Engine.ini`` (choose one config and please read the comments inside)
+
+**AND**
+
+``run_wuwa.bat`` from Common folder to this location (Please check properly, different from previous one):
+
+> ...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64
 
 Make sure to open the game with ``run_wuwa.bat`` or else the config won't work (You can also do it manually using launch option listed above)
 
-> Note: It's normal for a lot of stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t set it to read-only, as this will cause stutters. You can leave the older Engine.ini or delete it, it won't use the one from WindowsNoEditor folder anymore.
+> [!NOTE]
+> It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t make it read-only to avoid that, as it will cause stutters. You can leave the older Engine.ini or delete it, it won't use the one from WindowsNoEditor folder anymore.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
