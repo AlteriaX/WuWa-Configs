@@ -1,4 +1,7 @@
 @echo off
+:: Set directory to same location as run_wuwa.bat
+cd /d "%~dp0"
+
 :: Trim Engine.ini to only keep [SystemSettings], [Core.Log] and [/Script/Engine.RendererSettings] section before launching game
 :: Only r.RayTracing.LoadConfig is kept under [/Script/Engine.RendererSettings]
 :: File size will duplicate entries and get bigger if no trim

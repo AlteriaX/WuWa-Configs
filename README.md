@@ -40,7 +40,7 @@ Just delete the ini files, launching the game will create a new one.
 
 # Installation
 
-Copy ``Engine.ini`` (choose one config and please read the comments inside)
+Copy ``Engine.ini`` (choose one config and read the comments inside, it'll disappear after game launch)
 
 **AND**
 
@@ -49,10 +49,10 @@ Copy ``Engine.ini`` (choose one config and please read the comments inside)
 > ...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64
 
 > [!IMPORTANT]
-Make sure to open the game with ``run_wuwa.bat`` or else the config won't work.
+Always open the game with ``run_wuwa.bat`` as admin or else the config won't work (Steam playtime won't be tracked)
 
 > [!NOTE]
-> It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t make it read-only to avoid that, as it will cause stutters. You can leave the older Engine.ini or delete it, game won't use the one from WindowsNoEditor folder anymore.
+> It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t make it read-only to avoid that, it will cause stutters. You can leave the older Engine.ini or delete it, game won't use the one from WindowsNoEditor folder anymore.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
