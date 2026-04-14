@@ -26,8 +26,7 @@ Just delete the ini files, launching the game will create a new one.
 <details>
 <summary>Launch Options</summary>
 <pre>
-; Steam version opens game with different exe which doesn't work with launch options
-; Creating shortcut for Steam version works but hours won't be tracked<br>
+; For Steam just add to launch options in properties
 -SkipSplash Skip intro videos
 -dx11 Launch the game with DX11
 -dx12 Launch the game with DX12
@@ -40,19 +39,25 @@ Just delete the ini files, launching the game will create a new one.
 
 # Installation
 
-Copy ``Engine.ini`` (choose one config and read the comments inside, it'll disappear after game launch)
+Choose one ``Engine.ini`` config (Please read the comments inside, it'll disappear after game launch)
 
 **AND**
 
-``run_wuwa.bat`` from Common folder to this location (Please check properly, different from previous one):
+[For non-Steam only] Get ``run_wuwa.bat`` from [Common](https://github.com/AlteriaX/WuWa-Configs/tree/main/Common) folder
+
+Copy the file(s) to this location (Please check properly, different from previous one):
 
 > ...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64
 
 > [!IMPORTANT]
-Always open the game with ``run_wuwa.bat`` as admin or else the config won't work (Steam playtime won't be tracked)
+For Steam, just add ``-EngineIni=Engine.ini`` to launch options in properties.<br>
+For non-Steam, always open the game with ``run_wuwa.bat`` as admin or else the config won't work.
+
 
 > [!NOTE]
-> It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config. Don’t make it read-only to avoid that, it will cause stutters. You can leave the older Engine.ini or delete it, game won't use the one from WindowsNoEditor folder anymore.
+It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config.<br>
+Don’t make it read-only to avoid that, it will cause stutters.<br>
+You can leave the older Engine.ini or delete it, game won't use the one from WindowsNoEditor folder anymore.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
