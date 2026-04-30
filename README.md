@@ -51,8 +51,7 @@ Copy the file(s) to this location (Please check properly, different from previou
 
 > [!IMPORTANT]
 For Steam, just add ``-EngineIni=Engine.ini`` to launch options in properties.<br>
-For non-Steam, always open the game with ``run_wuwa.bat`` as admin or else the config won't work.
-
+For non-Steam, always open the game with ``run_wuwa.bat`` or the config won't work (Run as admin if have issues) 
 
 > [!NOTE]
 It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config.<br>
