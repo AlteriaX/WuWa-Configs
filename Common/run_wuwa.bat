@@ -3,8 +3,8 @@
 cd /d "%~dp0"
 
 :: Trim Engine.ini to only keep [SystemSettings], [Core.Log] and [/Script/Engine.RendererSettings] section before launching game
-:: Only r.RayTracing.LoadConfig is kept under [/Script/Engine.RendererSettings]
-:: File size will duplicate entries and get bigger if no trim
+:: Only r.RayTracing.LoadConfig and r.MaxAnisotropy is kept under [/Script/Engine.RendererSettings]
+:: File size will duplicate entries and get bigger on every game launch if no trim
 powershell -NoProfile -Command "$lines = Get-Content 'Engine.ini'; $keep = $false; $notSys = $false; $out = @(); $count = 0; foreach ($line in $lines) { if ($line -ieq '[SystemSettings]' -or $line -ieq '[Core.Log]' -or $line -ieq '[/Script/Engine.RendererSettings]') { $keep = $true; if ($line -ieq '[Core.Log]' -or $line -ieq '[/Script/Engine.RendererSettings]') { $notSys = $true } } if ($keep) { if ($notSys -and ($line -ilike 'r.RayTracing.LoadConfig*' -or $line -ilike 'r.MaxAnisotropy*')) { $out += $line; $count++; if ($count -gt 1) { $keep = $false } continue } if ($line -eq '' -and $notSys) { $keep = $false; $notSys = $false; continue } $out += $line } } $out | Set-Content 'Engine.ini'"
 
 :: Start WuWa with launch options
