@@ -10,21 +10,17 @@ Highly unlikely, I've been tweaking ini files since release with no issues.
   
 - **Do I need to redownload config every game patch?**  
 Game patch does not reset Engine.ini to default.  
-If you run into issues, just grab the latest version of the config as I update it from time to time.
+If you run into issues, just grab the latest version of the config.
 
 - **Can I change in-game settings?**  
 Yes, it won't override any of the changes done through Engine.ini.
 
 - **Character shadows suddenly missing / low texture quality.**  
 Switch to another Graphics Quality Preset then back to the same one, you can customize the settings after.
-  
-- **How do I reset the ini files back to default?**  
-Just delete the ini files, launching the game will create a new one.
-
 </details>
 
 <details>
-<summary>Launch Options</summary>
+<summary>Launch Options (Optional)</summary>
 <pre>
 ; For Steam just add to launch options in properties
 -SkipSplash Skip intro videos
@@ -39,23 +35,20 @@ Just delete the ini files, launching the game will create a new one.
 
 # Installation
 
-Choose one ``Engine.ini`` config (Please read the comments inside, it'll disappear after game launch)
+### PLEASE CHECK THE LOCATION PROPERLY, IT'S DIFFERENT FROM OLD ONE
 
-**AND**
+Choose one ``Engine.ini`` **AND** get ``run_wuwa.bat`` (For non-Steam only) from [Common](https://github.com/AlteriaX/WuWa-Configs/tree/main/Common) folder
 
-[For non-Steam only] Get ``run_wuwa.bat`` from [Common](https://github.com/AlteriaX/WuWa-Configs/tree/main/Common) folder
-
-Copy the file(s) to this location (Please check properly, different from previous one):
+Copy the file(s) to this location:
 
 > ...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64
 
 > [!IMPORTANT]
 For Steam, just add ``-EngineIni=Engine.ini`` to launch options in properties.<br>
-For non-Steam, always open the game with ``run_wuwa.bat`` or the config won't work (Run as admin if have issues) 
+For non-Steam, **ALWAYS** open the game with ``run_wuwa.bat`` (Run as admin if have issues) 
 
 > [!NOTE]
-It's normal for a lot of extra stuff to be added to Engine.ini after game launch, it's just the game default config.<br>
-Don’t make it read-only to avoid that, it will cause stutters.<br>
+It's normal for Engine.ini to increase to above 400KB with extra lines.<br>
 You can leave the older Engine.ini or delete it, game won't use the one from WindowsNoEditor folder anymore.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
