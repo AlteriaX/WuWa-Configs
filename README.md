@@ -37,7 +37,9 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 
 ### PLEASE CHECK THE LOCATION PROPERLY, IT'S DIFFERENT FROM OLD ONE
 
-Choose one ``Engine.ini`` **AND** get ``run_wuwa.bat`` (For non-Steam only) from [Common](https://github.com/AlteriaX/WuWa-Configs/tree/main/Common) folder
+Choose one ``Engine.ini`` config (Please read comments inside, it'll disappear after game launch)
+
+If not using Steam, also get ``run_wuwa.bat`` from [Common](https://github.com/AlteriaX/WuWa-Configs/tree/main/Common) folder.
 
 Copy the file(s) to this location:
 
