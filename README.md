@@ -38,12 +38,13 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 
 Choose one ``UserEngine.ini`` config (Please read comments inside)
 
-Copy the file(s) to this location:
+Copy the file to this location:
 
-> ...Wuthering Waves\Wuthering Waves Game\Client\Config
+> ...Wuthering Waves\Wuthering Waves Game\Client\Config (Launcher)<br>
+> ...Wuthering Waves\Client\Config (Steam)
 
 > [!NOTE]
-You don't need to set the file to read-only.
+You don't need to set the file to read-only and can leave the Engine.ini in WindowsNoEditor as is.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
@@ -64,7 +65,7 @@ You don't need to set the file to read-only.
 
 ``Input.ini`` to disable mouse smoothing and FoV scaling
 
-Copy ``DeviceProfiles.ini`` or ``Input.ini`` to this location: 
+Copy the file(s) to this location: 
 > ...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
 
 ---
