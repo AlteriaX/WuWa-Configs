@@ -44,7 +44,8 @@ Copy the file to this location:
 > ...Wuthering Waves\Client\Config (Steam)
 
 > [!NOTE]
-You don't need to set the file to read-only and can leave the Engine.ini in WindowsNoEditor as is.
+You don't need to set the file to read-only and can leave the Engine.ini in WindowsNoEditor as is.<br>
+If using Steam, don't forget to remove ``-EngineIni=Engine.ini`` in the launch options if you previously added it.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this and can use a config above or below the recommended one.**
