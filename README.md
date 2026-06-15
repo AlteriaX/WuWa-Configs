@@ -1,16 +1,21 @@
 # WuWa-Configs
 
+Please read FAQ and installation note before asking on Discord
+
 [<img src="https://discord.com/api/guilds/798954204420112454/widget.png?style=banner2">](https://discord.gg/gczjQvgzWE)
 
 <details>
 <summary>Frequently Asked Questions (FAQ)</summary>
+
+- **Do I need to set any of the ini files to read-only?**  
+No, don’t need to set any ini files to read-only.
 
 - **Will I get banned for using this?**  
 No, I've been making changes to the ini files since release with no issues.
   
 - **Do I need to redownload config every game patch?**  
 Game updates do not reset ini files to default.  
-If you run into issues, just grab the latest version of the config.
+If you run into issues, try using the latest version of the config.
 
 - **Can I change in-game settings?**  
 Yes, it won't override any of the changes done through ini files.
@@ -46,7 +51,8 @@ Copy the file to this location:
 > ...Wuthering Waves\Client\Config (Steam)
 
 > [!NOTE]
-You don't need to set the file to read-only and for Engine.ini in WindowsNoEditor, you can just leave it be.<br>
+For ``Engine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor``, you can leave it as is or remove it.<br><br>
+If you still have ``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``, delete it.<br><br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
