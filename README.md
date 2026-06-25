@@ -51,7 +51,7 @@ Copy the file to this location:
 > ...Wuthering Waves\Client\Config (Steam)
 
 > [!NOTE]
-For ``Engine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor``, you can leave it as is or remove it.<br><br>
+For ``Engine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor``, you can leave it as is.<br><br>
 If you still have ``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``, delete it.<br><br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
 
