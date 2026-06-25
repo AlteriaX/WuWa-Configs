@@ -1,12 +1,12 @@
 # RT Configs
 
-## How to use:
+Configs no longer done due to being similar to default settings
 
-Choose one RT Config, copy all the commands and put under [SystemSettings] in UserEngine.ini
-
-**RT Ultra** - More demanding compared to default RT High, only use if you have RTX 4090/5090 or don't need extra FPS
-
-**RT High/Medium/Low** - Similar to default with minor changes
+If you prefer mirror-like reflections just add the command under ``[SystemSettings]`` in UserEngine.ini
+```
+; Increase to 0.8 or 1.0 - default 0.5
+r.Lumen.Reflections.SmoothBias=1.0
+```
 
 ---
 
@@ -32,10 +32,8 @@ r.RayTracing.SkyLight.Denoiser=0
 
 ---
 
-To use NVIDIA Ray Reconstruction (Kinda demanding but you can try)
+To use NVIDIA Ray Reconstruction (Demanding but you can try)
 - Add ``r.NGX.DLSS.DenoiserMode=1`` and the disable denoiser and TAA commands under ``[SystemSettings]`` in UserEngine.ini
-- Launch the game directly using ``Client-Win64-Shipping.exe`` in ``...\Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``
-- Do not launch the game through launcher as it will check file integrity and redownload files
 
 ---
 
