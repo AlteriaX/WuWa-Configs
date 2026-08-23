@@ -6,6 +6,10 @@ If you prefer mirror-like reflections just add the command below under ``[System
 ```
 ; Increase to 0.8 or 1.0 - default 0.5
 r.Lumen.Reflections.SmoothBias=1.0
+
+; If you want to keep RT High Reflections but use RT Medium/Low GI/Shadows
+r.Lumen.Reflections.DownsampleFactor=1
+r.Lumen.TranslucencyReflections.FrontLayer.DownsampleFactor=1
 ```
 
 ---
@@ -23,9 +27,9 @@ r.Lumen.Reflections.Temporal=0
 r.Lumen.Reflections.ScreenSpaceReconstruction=0
 
 ; Extra commands for Ray Reconstruction only
+; Did not test since I have weak GPU, just listing the other denoiser commands
 r.Shadow.Denoiser=0
 r.AmbientOcclusion.Denoiser=0
-r.Lumen.ScreenProbeGather.Temporal=0
 r.RayTracing.GlobalIllumination.Denoiser=0
 r.RayTracing.SkyLight.Denoiser=0
 ```

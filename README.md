@@ -41,6 +41,8 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 
 **TO USE OLD COLOR SETTINGS:** [https://alteriax.github.io/WuWa-Config-Info/color-settings/](https://alteriax.github.io/WuWa-Config-Info/color-settings/)
 
+**DECRYPT LOG FILE:** [https://alteriax.github.io/WuWa-Config-Info/decrypt/](https://alteriax.github.io/WuWa-Config-Info/decrypt/)
+
 ---
 
 **Optional files in Common folder:**
