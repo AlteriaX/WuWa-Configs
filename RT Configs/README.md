@@ -9,7 +9,10 @@ r.Lumen.Reflections.SmoothBias=1.0
 
 ; If you want to keep RT High Reflections but use RT Medium/Low GI/Shadows
 r.Lumen.Reflections.DownsampleFactor=1
+r.Lumen.Reflections.WaterDownsampleFactor=1
+r.Lumen.TranslucencyReflections.FrontLayer.Allow=1
 r.Lumen.TranslucencyReflections.FrontLayer.DownsampleFactor=1
+r.Water.SingleLayer.Reflection.DownsampleCheckerboard=0
 ```
 
 ---
