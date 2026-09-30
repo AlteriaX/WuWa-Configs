@@ -31,8 +31,9 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 -SkipSplash Skip intro videos
 -dx11 Launch the game with DX11
 -dx12 Launch the game with DX12
--ResX Sets horizontal resolution
--ResY Sets vertical resolution
+-ResX Sets horizontal resolution (example usage: -ResX=2560)
+-ResY Sets vertical resolution (example usage: -ResY=1080)
+-krqlv Sets the resource tier, values: UHD, HD, SD (required or else game won't launch, example usage: -krqlv=UHD)
 </pre>
 <a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
 </details>
